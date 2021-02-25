@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Учебники</title>
+        
+        <link rel="stylesheet" href="assets/css/bootstrap.css" />
+        <link rel="stylesheet" href="assets/css/font-awesome.css" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/topbar.css" />
+        <!-- <link rel="stylesheet" href="assets/css/no-topbar.css" /> -->
+        <script src="assets/js/bootstrap.bundle.js"></script>
+        <script src="assets/js/webview.js"></script>
+        <script src="assets/js/topbar.js"></script>
+    </head>
+    <body>
+        <!-- Topbar -->
+        <div id="controls">
+            <button id="back" class="btn btn-outline-primary" title="Назад"><i class="fa fa-arrow-left"></i></button>
+            <button id="forward" class="btn btn-outline-primary pull-right" title="Вперед"><i class="fa fa-arrow-right"></i></button>
+        </div>
+        <!-- End Topbar-->
+
+        <!-- Indicator -->
+        <!-- <div class="indicator"></div> -->
+        <!-- End Indicator-->
+
+        <!-- WebView -->
+        <webview
+            id="webview"
+            autosize="on"
+            src="https://kozhevnikovamn.ru/sosch75/"
+            data-home="https://https://kozhevnikovamn.ru/sosch75/"
+        ></webview>
+        <!-- End WebView-->
+    </body>
+</html>
