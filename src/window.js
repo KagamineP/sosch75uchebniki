@@ -16,6 +16,6 @@ exports.createBrowserWindow = () => {
             devTools: false,
             defaultEncoding: "UTF-8",
         },
-        title: "Учебники126"
+        title: "Учебники"
     });
 };
