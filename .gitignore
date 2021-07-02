@@ -7,4 +7,3 @@ release-builds
 #files
 *.tgz
 *.log
-package-lock.json
